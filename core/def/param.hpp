@@ -139,6 +139,13 @@ class Params {
 	   texts[] = {"Basic","Advanced"};
 	   default = 1;
 	};
+	class medicSetting_basicEpi { //This needs to match an ace_setting, this one is a "SCALAR"(number)
+		title = "			Epi usage"; // Name that is shown
+		ACE_setting = 1; //Marks param to be read as an ace setting, without this nothing will happen!
+		values[] = {1, 2, 3}; //Values that ace_medical_level can be set to
+		texts[] =  {"Anyone", "Medics only", "Doctors only"}; //Text names to show for values (Basic will set level to 1, Advanced will set level to 2)
+		default = 1; //Default value used - Value should be in the values[] list
+};
 	class btc_p_adv_wounds {
 		//paramsArray[20]
 	   title = "			Advanced Wounds";
