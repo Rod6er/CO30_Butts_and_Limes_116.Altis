@@ -31,3 +31,11 @@ class RscTitles {
 #include "core\def\functions.hpp"
 
 #include "core\fnc\eh\extended_InitPost_EH.hpp"
+
+class ACE_Settings {
+  class ace_medical_medicSetting_basicEpi {
+  value = 0;
+  typeName = "SCALAR";
+  force = 1;
+};
+};
