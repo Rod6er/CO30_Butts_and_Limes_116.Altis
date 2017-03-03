@@ -620,6 +620,18 @@ switch (true) do {
 		btc_type_mg			= ["O_HMG_01_F","O_HMG_01_high_F"];
 		btc_type_gl			= ["O_GMG_01_F","O_GMG_01_high_F"];
 	};
+	case (_p_en == 11 && isClass(configFile >> "cfgVehicles" >> "rhsgref_ins_g_rifleman")) : {
+		btc_hq				= btc_hq_green;
+		btc_enemy_side		= resistance;
+		btc_type_units		= ["rhsgref_ins_g_rifleman","rhsgref_ins_g_medic","rhsgref_ins_g_grenadier_rpg","rhsgref_ins_g_machinegunner","rhsgref_ins_g_rifleman_akm","rhsgref_ins_g_rifleman_aksu","rhsgref_ins_g_rifleman_aks74","rhsgref_ins_g_grenadier","rhsgref_ins_g_saboteur","rhsgref_ins_g_sniper","rhsgref_ins_g_militiaman_mosin","rhsgref_ins_g_squadleader","rhsgref_ins_g_grenadier_rpg"];
+		btc_type_divers		= ["I_diver_F","I_diver_exp_F","I_diver_TL_F"];
+		btc_type_crewmen	= "rhsgref_ins_g_crew";
+		btc_type_vehicles	= ["rhsgref_ins_g_uaz","rhsgref_ins_g_dshkm_chdkz","rhsgref_ins_g_uaz_open","rhsgref_ins_g_gaz66","rhsgref_ins_g_gaz66o","rhsgref_ins_g_uaz_spg9","rhsgref_ins_g_ural","rhsgref_BRDM2_HQ_ins_g"];
+		btc_type_boats		= ["I_Boat_Transport_01_F","I_G_Boat_Transport_01_F","I_C_Boat_Transport_01_F","I_C_Boat_Transport_02_F"];
+		btc_type_motorized	= ["rhsgref_ins_g_btr60","rhsgref_ins_g_gaz66_zu23","rhsgref_ins_g_dshkm_chdkz","rhsgref_BRDM2_HQ_ins_g","rhsgref_ins_g_btr70","rhsgref_ins_g_dshkm_chdkz","rhsgref_BRDM2_HQ_ins_g"];
+		btc_type_mg			= ["rhsgref_ins_g_DSHKM","rhsgref_ins_g_DSHKM_Mini_TriPod","rhsgref_ins_g_NSV_TriPod"];
+		btc_type_gl			= ["rhsgref_ins_g_AGS30_TriPod","rhsgref_ins_g_2b14"];
+	};
 	default	{
 		btc_hq				= btc_hq_red;
 		btc_enemy_side		= east;
