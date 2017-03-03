@@ -44,8 +44,8 @@ class Params {
 	class btc_p_en {
 	//paramsArray[6]
 		title = "			Enemy type:";
-		values[]={0,1,2,3,4,5,6,7,8,9,10};
-		texts[]={"Guerrilla (A3)","CAF (@CAF Aggressors)","AAF (A3)","RHS Insurgents (@RHS_AFRF)","Militia (@=BTC= Militia)","Militia (@IWAR: Irregular Warfare)","Syndikat (A3)","Middle East Militia (@Project Opfor)","ISTS (@Project Opfor)","Ultranationalists (@Project Opfor)","CSAT Pacific (A3)"};
+		values[]={0,1,2,3,4,5,6,7,8,9,10,11};
+		texts[]={"Guerrilla (A3)","CAF (@CAF Aggressors)","AAF (A3)","RHS Insurgents (@RHS_AFRF)","Militia (@=BTC= Militia)","Militia (@IWAR: Irregular Warfare)","Syndikat (A3)","Middle East Militia (@Project Opfor)","ISTS (@Project Opfor)","Ultranationalists (@Project Opfor)","CSAT Pacific (A3)","RHS ChDKZ Insurgents(@RHSGREF)"};
 		default = 0;
 	};
 	class btc_p_civ {
