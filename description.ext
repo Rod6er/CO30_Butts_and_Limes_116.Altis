@@ -3,6 +3,7 @@ loadScreen = "core\img\btc.paa";
 author = Giallustio-dbEdit;
 onLoadName = Butts and Limes 116;
 onLoadMission = www.blacktemplars.altervista.org;
+enableDebugConsole = 1;
 
 #include "core\def\dlg_def.hpp"
 
